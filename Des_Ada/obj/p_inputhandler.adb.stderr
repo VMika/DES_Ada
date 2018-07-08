@@ -1,0 +1,3 @@
+p_inputhandler.adb:5:14: missing body for "Make" declared at p_inputhandler.ads:15
+p_inputhandler.adb:8:04: subprogram "Handle" is not overriding
+p_inputhandler.adb:13:13: "Make" conflicts with declaration at p_inputhandler.ads:15

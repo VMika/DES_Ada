@@ -1,0 +1,34 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Pr\351sentation g\351n\351rale du projet}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Enjeux du projet}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{\311tapes du projet}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Pr\351sentation de l'algorithme DES}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Transposition initiale}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Cycles de chiffrements}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Fonction cryptographique de DES}{subsection.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{G\351n\351ration de sous-cl\351s}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{Phase finale de l'algorithme et circuit de chiffrement/d\351chiffrement}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Pr\351sentation du langage Ada}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Philosophie et origine du langage}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Port\351e du langage}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Premi\350re impl\351mentation : mod\351lisation objet}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Architecture g\351n\351rale du programme}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Notion d'objet en Ada}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{Principe g\351n\351ral de l'impl\351mentation}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.4}{Objet Step\137Handler g\351n\351ral}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Input Handler}{subsection.4.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.4.2}{IP Handler}{subsection.4.4}% 20
+\BOOKMARK [3][-]{subsubsection.4.4.3}{KeyGen Handler}{subsection.4.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Feistel Handler}{subsection.4.4}% 22
+\BOOKMARK [3][-]{subsubsection.4.4.5}{Reverse IP Handler}{subsection.4.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.4.6}{Output Handler}{subsection.4.4}% 24
+\BOOKMARK [2][-]{subsection.4.5}{Encapsulation de la cha\356ne de responsabilit\351}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.6}{Conclusion de l'algorithme s\351quentiel}{section.4}% 26
+\BOOKMARK [1][-]{section.5}{Deuxi\350me impl\351mentation : mod\351lisation parall\350le}{}% 27
+\BOOKMARK [2][-]{subsection.5.1}{Principe g\351n\351rale de la parall\351lisation : le design pattern Pipeline}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.2}{Notion de t\342ches en Ada}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.3}{Application du Pipeline \340 l'algorithme DES}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.4}{D\351finition des t\342ches n\351cessaires au traitement}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.5}{Structure g\351n\351rale de l'algorithme}{section.5}% 32
+\BOOKMARK [2][-]{subsection.5.6}{Limite de l'algorithme parall\350le}{section.5}% 33
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 34

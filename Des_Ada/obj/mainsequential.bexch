@@ -1,0 +1,28 @@
+[GENERATED OBJECT FILE]
+b__mainsequential.o
+[PROJECT FILES]
+C:\Users\vadim\des-ada\Des_Ada\des.gpr
+20180625101254
+[BOUND OBJECT FILES]
+C:\Users\vadim\des-ada\Des_Ada\obj\p_structuraltypes.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_stephandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_stephandler-feistelhandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_stephandler-inputhandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_stephandler-iphandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_stephandler-keyhandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_stephandler-outputhandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_stephandler-reverseiphandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\p_deshandler.o
+C:\Users\vadim\des-ada\Des_Ada\obj\mainSequential.o
+[GENERATED SOURCE FILES]
+b__mainsequential.ads
+b__mainsequential.adb
+b__mainsequential.ali
+[RESULTING OPTIONS]
+-LC:\Users\vadim\des-ada\Des_Ada\obj\
+-LC:\Users\vadim\des-ada\Des_Ada\obj\
+-LC:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

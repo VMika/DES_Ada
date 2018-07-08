@@ -1,0 +1,47 @@
+main.adb:1:26: missing ";"
+main.adb:38:06: violation of restriction "no_calendar"
+main.adb:38:06: from profile "ravenscar" at line 1
+main.adb:96:04: warning: objects of this type will violate "No_Task_Hierarchy" at line 1
+main.adb:97:07: violation of restriction "max_task_entries = 0"
+main.adb:97:07: from profile "ravenscar" at line 1
+main.adb:101:04: warning: objects of this type will violate "No_Task_Hierarchy" at line 1
+main.adb:102:07: violation of restriction "max_task_entries = 0"
+main.adb:102:07: from profile "ravenscar" at line 1
+main.adb:106:04: warning: objects of this type will violate "No_Task_Hierarchy" at line 1
+main.adb:107:07: violation of restriction "max_task_entries = 0"
+main.adb:107:07: from profile "ravenscar" at line 1
+main.adb:111:04: warning: objects of this type will violate "No_Task_Hierarchy" at line 1
+main.adb:112:07: violation of restriction "max_task_entries = 0"
+main.adb:112:07: from profile "ravenscar" at line 1
+main.adb:128:10: violation of restriction "no_select_statements"
+main.adb:128:10: from profile "ravenscar" at line 1
+main.adb:128:10: violation of restriction "no_terminate_alternatives"
+main.adb:128:10: from profile "ravenscar" at line 1
+main.adb:128:10: violation of restriction "max_select_alternatives = 0"
+main.adb:128:10: from profile "ravenscar" at line 1
+main.adb:153:10: violation of restriction "no_select_statements"
+main.adb:153:10: from profile "ravenscar" at line 1
+main.adb:153:10: violation of restriction "no_terminate_alternatives"
+main.adb:153:10: from profile "ravenscar" at line 1
+main.adb:153:10: violation of restriction "max_select_alternatives = 0"
+main.adb:153:10: from profile "ravenscar" at line 1
+main.adb:177:10: violation of restriction "no_select_statements"
+main.adb:177:10: from profile "ravenscar" at line 1
+main.adb:177:10: violation of restriction "no_terminate_alternatives"
+main.adb:177:10: from profile "ravenscar" at line 1
+main.adb:177:10: violation of restriction "max_select_alternatives = 0"
+main.adb:177:10: from profile "ravenscar" at line 1
+main.adb:196:10: violation of restriction "no_select_statements"
+main.adb:196:10: from profile "ravenscar" at line 1
+main.adb:196:10: violation of restriction "no_terminate_alternatives"
+main.adb:196:10: from profile "ravenscar" at line 1
+main.adb:196:10: violation of restriction "max_select_alternatives = 0"
+main.adb:196:10: from profile "ravenscar" at line 1
+main.adb:281:07: violation of restriction "no_task_hierarchy"
+main.adb:281:07: from profile "ravenscar" at line 1
+main.adb:282:07: violation of restriction "no_task_hierarchy"
+main.adb:282:07: from profile "ravenscar" at line 1
+main.adb:283:07: violation of restriction "no_task_hierarchy"
+main.adb:283:07: from profile "ravenscar" at line 1
+main.adb:284:07: violation of restriction "no_task_hierarchy"
+main.adb:284:07: from profile "ravenscar" at line 1

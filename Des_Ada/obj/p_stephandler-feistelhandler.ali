@@ -1,0 +1,214 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U p_stephandler.feistelhandler%b  p_stephandler-feistelhandler.adb  b6ec215a OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W p_stephandler%s	p_stephandler.adb	p_stephandler.ali
+W p_structuraltypes%s	p_structuraltypes.adb	p_structuraltypes.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U p_stephandler.feistelhandler%s  p_stephandler-feistelhandler.ads  8e57995f EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W p_stephandler%s	p_stephandler.adb	p_stephandler.ali
+W p_structuraltypes%s	p_structuraltypes.adb	p_structuraltypes.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-inteio.ads		20170516105954 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-string.ads		20170516105952 90ac6797 ada.strings%s
+D a-strmap.ads		20170516105952 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D p_stephandler.ads	20180404122104 fb31d3a6 p_stephandler%s
+D p_stephandler-feistelhandler.ads  20180404122104 5ae617c1 p_stephandler.feistelhandler%s
+D p_stephandler-feistelhandler.adb  20180708214130 f69dc475 p_stephandler.feistelhandler%b
+D p_structuraltypes.ads	20180404122104 d4b18e9e p_structuraltypes%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170516105950 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170516105948 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 20|1r6 2r5 4r6 5r5
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 20|4w10 5r9
+X 13 a-textio.ads
+49K13*Text_IO 471e16 20|1w10 2r9
+X 18 p_stephandler.ads
+5K9*P_StepHandler 32e18 19|2w6 3r5 8r9 71r31 80r5 20|10r14 279r8
+7H9*T_StepHandler 30e17 19|16r31 71r45
+9P9*Ptr_Handler(7R9)
+11x14*Handle 20|94R27
+13V13*Get_NextHandler{9P9}
+15U14*Set_NextHandler
+18V13*Get_BinaryContainer{21|41P9}
+21U14*Set_BinaryContainer
+28p10*NextHandler{9P9} 20|93r15 94r15
+29p10*Ptr_BinaryContainer{21|41P9} 20|15m15 77r33 79r40 81r33 85r33 87r42
+. 89r33
+X 19 p_stephandler-feistelhandler.ads
+8K23*FeistelHandler 18|5k9 19|71E9 80l19 80e33 20|10b28 279l22 279t36
+10A9*T_BinaryIntegerArray(21|11A9)<integer> 60r41 73r25 20|261r34
+12A9*T_SBox(integer)<integer><integer> 14r40 20|13r40
+14A9*T_SBoxArray(12A9)<integer> 57r65 74r19 20|255r65
+16R9*FeistelHandler<18|7R9> 18|13p13 15p14 18p13 21p14 19|18r42 21p13 21r36
+. 21r59 24P14 24r36 26p13 26r38 30p14 30r39 34p13 34r41 42p13 42r42 46p13
+. 46r36 57p13 57r42 59p13 59r48 64p14 64r51 67p14 67r38 71c9 76e14 20|12r36
+. 12r59 72r36 98r38 117r39 141r41 155r42 167r36 255r42 260r48 266r51 272r38
+18P9*Ptr_FeistelHandler(16R9)
+21V13*Make{16R9} 21=19 20|12b13 70t7
+21r19 Handler{16R9} 20|12b19 15m7 16m7 17r16 18m10 18r10 25m7 31m7 37m7 43m7
+. 49m7 55m7 61m7 67m7 69r14
+24U14*Handle<18|11p14> 24=22 20|72b14 96t7
+24r22 Self{16R9} 20|72b22 76r10 77r28 79r30 79r35 81r28 85r28 87r32 87r37
+. 89r28 93r10 94r10
+26V13*Process_Block{21|15A12} 26>28 27=28 20|98b13 114t7
+26r28 Self{16R9} 20|98b28 102r10 104r30 108r30
+27a28 Block{21|15A12} 20|99b28 104m35 108m35 111m22 113r14
+30U14*Feistel_Round 30>29 31=28 32>28 20|79s16 87s18 104s16 108s16 117b14
+. 136t7
+30r29 Self{16R9} 20|117b29 127r26 129r26
+31a28 Block{21|15A12} 20|118b28 123r18 124r19 128r26 131r43 134m7 135m7
+32i28 Round{integer} 20|119b28 129r51
+34V13*Feistel_Function{21|21A12} 34>31 35>31 36>31 20|127s9 141b13 153t7
+34r31 Self{16R9} 20|141b31 150r39
+35a31 HalfBlock{21|21A12} 20|142b31 148r34
+36a31 SubKey{21|29A12} 20|143b31 149r46
+39V13*Expansion{21|19A12} 39>24 20|148s24 183b13 202t7
+39a24 HalfBlock{21|21A12} 20|183b24 195r34 198r27 199r28
+42V13*SBox_Substitution{21|21A12} 42>32 43>32 20|150s21 155b13 165t7
+42r32 Self{16R9} 20|155b32 162r24
+43a32 ExpandedBlock{21|19A12} 20|156b32 162r29
+46V13*SBox_Output{21|11A9} 46>26 47>26 48>26 20|162s12 167b13 181t7
+46r26 Self{16R9} 20|167b26 180r14 180r35
+47a26 Input{21|11A9} 20|168b26 174r17 174r23 175r17 175r23 176r17 176r23
+. 177r17 177r23 178r28 178r34 178r60 178r66
+48i26 SBoxNumber{integer} 20|169b26 180r50
+50V13*Permutation{21|21A12} 50>26 20|151s21 204b13 242t7
+50a26 HalfBlock{21|21A12} 20|204b26 208r27 209r27 210r27 211r27 212r27 213r27
+. 214r27 215r27 216r27 217r28 218r28 219r28 220r28 221r28 222r28 223r28 224r28
+. 225r28 226r28 227r28 228r28 229r28 230r28 231r28 232r28 233r28 234r28 235r28
+. 236r28 237r28 238r28 239r28
+53U14*FinalInversion 53=30 20|81s13 89s13 111s7 244b14 251t7
+53a30 Block{21|15A12} 20|244b30 247r18 248r19 249m7 250m7
+57V13*Get_SBoxArray{14A9} 57=28 20|255b13 258t7
+57r28 Self{16R9} 20|255b28 257r14
+59V13*Get_SBoxOutputArray{10A9} 59=34 20|260b13 264t7
+59r34 Self{16R9} 20|260b34 263r14
+64U14*Set_SubKeyArrayAccess 64=37 65>37 20|266b14 270t7
+64r37 Self{16R9} 20|266b37 269m7
+65p37 Ptr{21|43P9} 20|267b37 269r31
+67U14*Set_Mode 67=24 68>24 20|272b14 276t7
+67r24 Self{16R9} 20|272b24 275m7
+68e24 Mode{character} 20|273b24 275r20
+72p7 Ptr_SubKeyArray{21|43P9} 20|16m15 129r31 269m12
+73a7 SBoxOutputArray{10A9} 20|17r24 18m18 180r19 263r19
+74a7 SBoxArray{14A9} 20|25m15 31m15 37m15 43m15 49m15 55m15 61m15 67m15 180r40
+. 257r19
+75e7 Mode{character} 20|76r15 102r15 275m12
+X 20 p_stephandler-feistelhandler.adb
+13a7 S1{19|12A9} 21m7 25r31
+13a11 S2{19|12A9} 27m7 31r31
+13a15 S3{19|12A9} 33m7 37r31
+13a19 S4{19|12A9} 39m7 43r31
+13a23 S5{19|12A9} 45m7 49r31
+13a27 S6{19|12A9} 51m7 55r31
+13a31 S7{19|12A9} 57m7 61r31
+13a35 S8{19|12A9} 63m7 67r31
+17i11 i{integer} 18r34 18r59
+77i14 BlockIndex{integer} 79r64 81r57
+78i17 Round{integer} 79r76
+85i14 BlockIndex{integer} 87r66 89r57
+86i17 Round{integer} 87r81
+103i14 Round{integer} 104r41
+107i14 Round{integer} 108r44
+120a7 TmpLeft{21|21A12} 123m7 131m7 135r24
+120a16 TmpRight{21|21A12} 124m7 134r23
+121a7 FeistelHalfBlock{21|21A12} 126m7 131r25
+145a7 ExpandedBlock{21|19A12} 148m7 149m7 149r32 150r44
+146a7 FinalBlock{21|21A12} 150m7 151m7 151r33 152r14
+158a7 CompressedBlock{21|21A12} 161m10 164r14
+160i11 i{integer} 161r29 161r39 162r46 162r56 162r59
+170i7 ColumnNumber{integer} 173m7 180r72
+171i7 RowNumber{integer} 178m7 180r62
+185a7 ExpandedBlock{21|19A12} 195m10 198m7 199m7 201r14
+186i7 PermIndex{integer} 188m7 191m13 191r26 193m13 193r26 195r44
+189i11 Index{integer} 190r13 195r24
+206a7 PermutedBlock{21|21A12} 208m7 209m7 210m7 211m7 212m7 213m7 214m7 215m7
+. 216m7 217m7 218m7 219m7 220m7 221m7 222m7 223m7 224m7 225m7 226m7 227m7
+. 228m7 229m7 230m7 231m7 232m7 233m7 234m7 235m7 236m7 237m7 238m7 239m7
+. 241r14
+245a7 TmpLeft{21|21A12} 247m7 250r24
+245a16 TmpRight{21|21A12} 248m7 249r23
+X 21 p_structuraltypes.ads
+4K9*P_StructuralTypes 19|5w6 6r5 20|7w6 8r5 21|73e22
+8M9*T_Bit
+11A9*T_BinaryUnit(8M9)<integer> 19|10r50 47r34 48r55 20|168r34 169r55
+15A12*T_BinaryBlock{11A9}<integer> 19|27r43 28r35 31r43 53r45 20|99r43 100r35
+. 118r43 244r45
+19A12*T_BinaryExpandedBlock{11A9}<integer> 19|40r38 43r48 20|145r23 156r48
+. 184r38 185r23
+21A12*T_BinaryHalfBlock{11A9}<integer> 19|35r43 37r38 39r36 44r39 50r38 51r33
+. 20|120r27 121r26 142r43 144r38 146r20 157r39 158r25 183r36 204r38 205r33
+. 206r23 245r27
+29A12*T_BinarySubKey{11A9}<integer> 19|36r40 20|143r40
+31A9*T_BinaryContainer(15A12)<integer>
+34A9*T_BinarySubKeyArray(29A12)<integer>
+41P9*BinaryContainer_Access(31A9)
+43P9*BinarySubKeyArray_Access(34A9) 19|65r46 72r25 20|267r46
+51V13*O_plus{11A9} 20|131s18 149s24
+57V13*Integer_To_Binary{11A9} 20|18s40
+

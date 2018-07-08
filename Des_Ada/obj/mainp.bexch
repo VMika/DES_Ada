@@ -1,0 +1,30 @@
+[GENERATED OBJECT FILE]
+b__mainp.o
+[PROJECT FILES]
+C:\Users\vadim\des-ada\Des-Ada\des.gpr
+20180328234218
+[BOUND OBJECT FILES]
+C:\Users\vadim\des-ada\Des-Ada\obj\p_structuraltypes.o
+C:\Users\vadim\des-ada\Des-Ada\obj\p_stephandler.o
+C:\Users\vadim\des-ada\Des-Ada\obj\p_stephandler-feistelhandler.o
+C:\Users\vadim\des-ada\Des-Ada\obj\p_stephandler-inputhandler.o
+C:\Users\vadim\des-ada\Des-Ada\obj\p_stephandler-iphandler.o
+C:\Users\vadim\des-ada\Des-Ada\obj\p_stephandler-keyhandler.o
+C:\Users\vadim\des-ada\Des-Ada\obj\p_stephandler-outputhandler.o
+C:\Users\vadim\des-ada\Des-Ada\obj\p_stephandler-reverseiphandler.o
+C:\Users\vadim\des-ada\Des-Ada\obj\mainp.o
+[GENERATED SOURCE FILES]
+b__mainp.ads
+b__mainp.adb
+b__mainp.ali
+[RESULTING OPTIONS]
+-LC:\Users\vadim\des-ada\Des-Ada\obj\
+-LC:\Users\vadim\des-ada\Des-Ada\obj\
+-LC:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnarl.a
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

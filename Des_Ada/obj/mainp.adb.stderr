@@ -1,0 +1,2 @@
+mainp.adb:111:27: expected private type "FeistelHandler" defined at p_stephandler-feistelhandler.ads:16
+mainp.adb:111:27: found private type "IPHandler" defined at p_stephandler-iphandler.ads:3

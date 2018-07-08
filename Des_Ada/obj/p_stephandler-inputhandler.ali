@@ -1,0 +1,225 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U p_stephandler.inputhandler%b  p_stephandler-inputhandler.adb  fbf0bd9b OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.sequential_io%s
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_conversion%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W p_stephandler%s	p_stephandler.adb	p_stephandler.ali
+W p_structuraltypes%s	p_structuraltypes.adb	p_structuraltypes.ali
+Z system%s		system.ads		system.ali
+Z system.byte_swapping%s  s-bytswa.ads		s-bytswa.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.sequential_io%s  s-sequio.adb		s-sequio.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U p_stephandler.inputhandler%s  p_stephandler-inputhandler.ads  abe41686 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W p_stephandler%s	p_stephandler.adb	p_stephandler.ali
+W p_structuraltypes%s	p_structuraltypes.adb	p_structuraltypes.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-inteio.ads		20170516105954 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-sequio.ads		20170516105950 10138ec7 ada.sequential_io%s
+D a-sequio.adb		20170516105956 93d6700a ada.sequential_io%b
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-string.ads		20170516105952 90ac6797 ada.strings%s
+D a-strmap.ads		20170516105952 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
+D a-suteio.ads		20170516105948 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D p_stephandler.ads	20180404122104 fb31d3a6 p_stephandler%s
+D p_stephandler-inputhandler.ads  20180404122104 6ece17ab p_stephandler.inputhandler%s
+D p_stephandler-inputhandler.adb  20180708214106 a8f9b000 p_stephandler.inputhandler%b
+D p_structuraltypes.ads	20180404122104 d4b18e9e p_structuraltypes%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-bytswa.ads		20170516105952 799c7440 system.byte_swapping%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-fileio.ads		20170516105950 45ce2f0f system.file_io%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-memory.ads		20170516105952 597d6634 system.memory%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-sequio.ads		20170516105952 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stalib.adb		20170516105948 f2fe2716 system.standard_library%b
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170516105950 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170516105948 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-string.ads		20170516105954 8fe54fb7 system.strings%s
+D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 23|7r6 8r5 24|2r6 2r23 3r6 4r6 5r6 5r23 6r6 6r31 17r30 55r30
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 24|6w10 6r35
+X 8 a-sequio.ads
+43k13*Sequential_IO 160e22 24|3w10 17r34 55r34
+53P9 File_Type<39|63P9> 24|19r28[17] 58r23[55]
+55E9 File_Mode
+55n23 In_File{55E9[24|17]} 24|25r27[17] 77r22[55]
+76U14 Open 24|25s7[17] 77s7[55]
+82U14 Close 24|30s7[17] 103s7[55]
+99U14 Read 24|28s18[17] 82s18[55]
+99p21 File{53P9[24|17]} 24|28r25[17] 82r25[55]
+99e39 Item{character} 24|28r46[17] 82r41[55]
+102V13 End_Of_File{boolean} 24|26s18[17] 79s18[55]
+X 10 a-stream.ads
+36K13*Streams 87e16 23|7w10 8r9 24|5w10 5r27
+X 11 a-string.ads
+16K13*Strings 35e16 24|4r10
+X 13 a-strunb.ads
+76K21*Unbounded 490e26 24|4r18
+79R9*Unbounded_String<5|43R9> 474e14 23|18r34 41r20 24|16r34 60r20
+82r4*Null_Unbounded_String{79R9} 24|74r21 90r27
+84V13*Length{natural} 24|86s13 95s10
+100V13*To_String{string} 24|25s36 77s31 87s45 99s42
+131V14*"&"{79R9} 24|83s35
+X 14 a-suteio.ads
+39K31*Text_IO 61e34 24|4w28
+X 16 a-textio.ads
+49K13*Text_IO 471e16 24|2w10 2r27
+X 22 p_stephandler.ads
+5K9*P_StepHandler 32e18 23|1w6 2r5 10r9 37r29 45r5 24|9r14 141r5
+7H9*T_StepHandler 30e17 23|12r29 37r43
+9P9*Ptr_Handler(7R9)
+11x14*Handle 24|106R27
+13V13*Get_NextHandler{9P9}
+15U14*Set_NextHandler
+18V13*Get_BinaryContainer{25|41P9} 24|88s32 100s29
+21U14*Set_BinaryContainer
+28p10*NextHandler{9P9} 24|105r15 106r15
+X 23 p_stephandler-inputhandler.ads
+10K23*InputHandler 22|5k9 23|37E9 45l19 45e31 24|9b28 141l19 141t31
+12R9*InputHandler<22|7R9> 22|13p13 15p14 18p13 21p14 23|14r36 17p13 17r33
+. 18r59 21P14 21r36 25p13 25r39 27p13 27r46 29p14 29r46 32p14 32r44 37c9
+. 43e14 24|15r33 16r59 54r36 115r39 120r46 125r46 131r44
+14P9*Ptr_InputHandler(12R9)
+17V13*Make{12R9} 17=19 18>19 24|15b13 46t7
+17r19 Self{12R9} 24|15b19 24m7 25r46 32m7 32r7 35m10 35r10 37m10 37r10 40r10
+. 41m10 41r47 42m12 45r14
+18r19 File_Name{13|79R9} 24|16b19 24r26
+21U14*Handle<22|11p14> 21=22 24|54b14 109t7
+21r22 Self{12R9} 24|54b22 77r41 88m27 88r27 100m24 100r24 105r10 106r10
+25V13*Get_Input_Size{integer} 25>29 24|115b13 118t7
+25r29 Self{12R9} 24|115b29 117r14
+27V13*Get_PaddingBitsNumber{integer} 27>36 24|120b13 123t7
+27r36 Self{12R9} 24|120b36 122r14
+29U14*Set_Input_Length 29=32 30>32 24|32s12 125b14 129t7
+29r32 Self{12R9} 24|125b32 128m7
+30i32 Length{integer} 24|126b30 128r28
+32U14*Set_Input_Size 32=30 32>59 24|35s15 37s15 131b14 135t7
+32r30 Self{12R9} 24|131b30 134m7
+32i59 Size{integer} 24|132b30 134r26
+38a7 Key{25|6A12}
+39i7 Input_Length{integer} 24|40r15 41r52 128m12
+40i7 Input_Size{integer} 24|117r19 134m12
+41r7 Input_Name{13|79R9} 24|24m12 25r51 77r46
+42i7 PaddingBitsNumber{integer} 24|41m15 42m17 122r19
+X 24 p_stephandler-inputhandler.adb
+17K15 Char_IO[8|43] 18r11 19r20 28r10
+19p7 Input_File{8|53P9[17]} 25m15 25r15 26r30 28r33 30m14 30r14
+20i7 count{integer} 27m10 27r19 32r29 34r10 35r30 37r30
+21e7 Buffer{character} 28m54
+55K15 Char_IO[8|43] 56r11 58r15 82r10
+58p7 Input{8|53P9[55]} 77m15 77r15 79r30 82r33 103m14 103r14
+59e7 Buffer{character} 82m49 83r37
+60r7 TextStream{13|79R9} 74m7 83m10 83r24 86r21 87r55 90m13 95r18 99r52
+61a7 TmpBlock{25|15A12} 87m13 88r58 99m10 100r55
+62i7 Index{integer} 88r52 89m13 89r22 100r49
+X 25 p_structuraltypes.ads
+4K9*P_StructuralTypes 23|4w6 5r5 24|1w6 1r29 25|73e22
+6A12*T_Key{string}<integer> 23|38r13
+8M9*T_Bit
+11A9*T_BinaryUnit(8M9)<integer>
+15A12*T_BinaryBlock{11A9}<integer> 24|61r18
+31A9*T_BinaryContainer(15A12)<integer>
+41P9*BinaryContainer_Access(31A9)
+53V13*TextBlock_To_Binary{15A12} 24|87s25 99s22
+60U14*Replace_Block 24|88s13 100s10
+X 26 system.ads
+67M9*Address
+X 35 s-memory.ads
+53V13*Alloc{26|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{26|67M9} 105i<c,__gnat_realloc>22
+X 39 s-sequio.ads
+63P9*File_Type(43R9)
+X 43 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

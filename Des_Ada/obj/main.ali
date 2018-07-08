@@ -1,0 +1,323 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+
+U main%b		main.adb		d38f2cda NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W p_stephandler%s	p_stephandler.adb	p_stephandler.ali
+W p_stephandler.feistelhandler%s  p_stephandler-feistelhandler.adb  p_stephandler-feistelhandler.ali
+W p_stephandler.inputhandler%s  p_stephandler-inputhandler.adb  p_stephandler-inputhandler.ali
+W p_stephandler.iphandler%s  p_stephandler-iphandler.adb  p_stephandler-iphandler.ali
+W p_stephandler.keyhandler%s  p_stephandler-keyhandler.adb  p_stephandler-keyhandler.ali
+W p_stephandler.outputhandler%s  p_stephandler-outputhandler.adb  p_stephandler-outputhandler.ali
+W p_stephandler.reverseiphandler%s  p_stephandler-reverseiphandler.adb  p_stephandler-reverseiphandler.ali
+W p_structuraltypes%s	p_structuraltypes.adb	p_structuraltypes.ali
+W system%s		system.ads		system.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.multiprocessors%s  s-multip.adb	s-multip.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-inteio.ads		20170516105954 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20170516105950 a87e2da7 ada.real_time%s
+D a-sequio.ads		20170516105950 10138ec7 ada.sequential_io%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-string.ads		20170516105952 90ac6797 ada.strings%s
+D a-strmap.ads		20170516105952 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
+D a-suteio.ads		20170516105948 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cstrin.ads		20170516105952 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D main.adb		20180330222800 04818740 main%b
+D p_stephandler.ads	20180329130538 fb31d3a6 p_stephandler%s
+D p_stephandler-feistelhandler.ads  20180330153524 5ae617c1 p_stephandler.feistelhandler%s
+D p_stephandler-inputhandler.ads  20180330151506 6ece17ab p_stephandler.inputhandler%s
+D p_stephandler-iphandler.ads  20180330153624 833ffe3d p_stephandler.iphandler%s
+D p_stephandler-keyhandler.ads  20180330151554 e2d78f05 p_stephandler.keyhandler%s
+D p_stephandler-outputhandler.ads  20180330151630 dfc8af34 p_stephandler.outputhandler%s
+D p_stephandler-reverseiphandler.ads  20180330154706 08c934ba p_stephandler.reverseiphandler%s
+D p_structuraltypes.ads	20180218005328 d4b18e9e p_structuraltypes%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-imglld.ads		20170516105956 f3220969 system.img_lld%s
+D s-memory.ads		20170516105952 597d6634 system.memory%s
+D s-multip.ads		20170516105948 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20170516105954 2e5b26a9 system.os_interface%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-sequio.ads		20170516105952 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stausa.ads		20170516105954 017a0a05 system.stack_usage%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stalib.adb		20170516105948 f2fe2716 system.standard_library%b
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20170516105950 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170516105948 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-string.ads		20170516105954 8fe54fb7 system.strings%s
+D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20170516105952 601f6b72 system.task_info%s
+D s-taspri.ads		20170516105952 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20170516105950 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170516105956 05d6152c system.tasking%s
+D s-taprob.ads		20170516105950 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20170516105956 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20170516105950 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20170516105952 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D s-win32.ads		20170516105948 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 20e8 25|19r6 20r5 22r6 23r5 25r6 26r5 28r6 33r6 34r5 36r6 36r24
+. 47r14 53r14 61r28 71r21
+X 2 a-calend.ads
+36K13*Calendar 395e17 25|36w10 36r28
+44I9*Time<213I9> 25|239r12 240r13
+58V13*Clock{44I9} 25|250s13 303s14
+105V14*"-"{duration} 25|304s25
+213I9 Time_Rep<long_long_integer>
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 25|25w10 26r9
+X 12 a-string.ads
+16K13*Strings 35e16 25|19w10 20r9 28r10 33r10 34r9 47r18 53r18 61r32 71r25
+X 14 a-strunb.ads
+76K21*Unbounded 490e26 25|28r18 33w18 34r17 47r26 53r26 61r40 71r33
+79R9*Unbounded_String<6|43R9> 474e14 25|44r39 50r40 67r17 222r18 223r18
+84V13*Length{natural} 25|69s13
+100V13*To_String{string} 25|61s18 73s14
+X 15 a-suteio.ads
+39K31*Text_IO 61e34 25|28w28 47r36 53r36 61r50 71r43
+41V13*Get_Line{14|79R9} 25|47s44 53s44 61s58 71s51
+X 17 a-textio.ads
+49K13*Text_IO 471e16 25|22w10 23r9
+242U14*Put 25|46s7 52s7 60s10 70s10
+263U14*Put_Line 25|305s4
+X 25 main.adb
+40U11*main 40b11 307l5 307t9
+44V13 Request_Input_Name{14|79R9} 44b13 48t7 245s18
+50V13 Request_Output_Name{14|79R9} 50b13 54t7 246s19
+56V13 Request_Mode{character} 56b13 64t7 247s12
+57e7 Mode{character} 59r14 59r30 61m10 63r14
+66V13 Request_Key{33|6A12} 66b13 74t7 248s19
+67r7 Tmp_Key{14|79R9} 69r20 71m10 73r25
+81T9 IP_Task 87r35 287r27
+82T9 Feistel_Task 88r40 288r27
+83T9 ReverseIP_Task 89r42 289r27
+84T9 Output_Task 90r39 290r27
+87P9 Ptr_IP_Task(81T9)
+88P9 Ptr_Feistel_Task(82T9) 97r36 125r14 129r40
+89P9 Ptr_ReverseIP_Task(83T9) 104r36 150r14 154r40
+90P9 Ptr_Output_Task(84T9) 111r36 174r14 178r40
+94T14 IP_Task 94d23 99l8 99e15 124b14 147l8 147t15
+94p23 Handler{29|5P9} 139r22
+97Y13 Next_Task 97>24 129b14 131l11 131t20 292s10
+97p24 Next_Step{88P9} 130r18
+98Y13 Process_Token 98>28 98>52 135b20 138l17 138t30 297s13
+98a28 Token{33|15A12} 136r25
+98i52 Id{integer} 137r25
+101T14 Feistel_Task 101d28 106l8 106e20 149b14 171l8 171t20
+101p28 Handler{27|18P9} 164r22
+104Y13 Next_Task 104>24 154b14 156l11 156t20 293s15
+104p24 Next_Step{89P9} 155r18
+105Y13 Process_Token 105>28 105>52 140s18 160b20 163l17 163t30
+105a28 Token{33|15A12} 161r25
+105i52 Id{integer} 162r25
+108T14 ReverseIP_Task 108d30 113l8 113e22 173b14 195l11 195t25
+108p30 Handler{32|5P9} 188r22
+111Y13 Next_Task 111>24 178b14 180l11 180t20 294s17
+111p24 Next_Step{90P9} 179r18
+112Y13 Process_Token 112>28 112>52 165s18 184b20 187l17 187t30
+112a28 Token{33|15A12} 185r25
+112i52 Id{integer} 186r25
+115T14 Output_Task 115d27 119l8 119e19 197b14 214l8 214t19
+115p27 Ptr_Output{33|41P9} 207r13
+118Y13 Process_Token 118>28 118>52 189s21 203b20 206l17 206t30
+118a28 Token{33|15A12} 204r25
+118i52 Id{integer} 205r25
+125p7 Next{88P9} 130m10 140r13
+126a7 Block{33|15A12} 136m16 139m13 139r45 140r33
+127i7 Index{integer} 137m16 140r40
+129p25 Next_Step{88P9}
+135a35 Token{33|15A12}
+135i61 Id{integer}
+150p7 Next{89P9} 155m10 165r13
+151a7 Block{33|15A12} 161m16 164m13 164m45 164r45 165r33
+152i7 Index{integer} 162m16 165r40
+154p25 Next_Step{89P9}
+160a35 Token{33|15A12}
+160i61 Id{integer}
+174p7 Next{90P9} 179m10 189r16
+175a7 Block{33|15A12} 185m16 188m13 188r45 189r36
+176i7 Index{integer} 186m16 189r43
+178p25 Next_Step{90P9}
+184a35 Token{33|15A12}
+184i61 Id{integer}
+198a7 Block{33|15A12} 204m16 207r38
+199i7 Index{integer} 205m16 207r28
+203a35 Token{33|15A12}
+203i61 Id{integer}
+222r4 Input_Name{14|79R9} 245m4 252r38
+223r4 Output_Name{14|79R9} 246m4 279r34
+224p4 Ptr_Key{33|45P9} 248r4 260r29
+225e4 Mode{character} 247m4 276r28
+228r4 InputLink{28|12R9} 252m4 252m27 252r27 265r37 268r37 270m7 270r7 283m4
+. 283r4 296m16 296r16 297m28 297r28
+229r4 IPLink{29|3R9} 254m4 254m27 254r27 271m7 271r7 287m36 287r36
+230r4 KeyGenLink{30|9R9} 253m4 253m27 253r27 260m4 260r4 261m4 261r4 284m4
+. 284r4
+231r4 FeistelLink{27|16R9} 255m4 255m27 255r27 272m7 272r7 275m7 275r7 276m7
+. 276r7 288m41 288r41
+232r4 ReverseIPLink{32|3R9} 256m4 256m27 256r27 273m7 273r7 289m43 289r43
+233r4 OutputLink{31|13R9} 257m4 257m27 257r27 278m7 278r7 279m7 279r7 290m40
+. 290r40 301m4 301r4
+236p4 Ptr_SubKey_Array{33|43P9} 261r37 275r41
+239i4 Start{2|44I9} 250m4 304r27
+240i4 Finish{2|44I9} 303m4 304r18
+241o4 Final_Time{duration} 304m4 305r14
+264p7 Ptr_BinaryContainer{33|41P9} 270r37 271r34 272r39 273r41
+267p7 Ptr_OutputContainer{33|41P9} 278r38
+287t7 IP{94T14} 292r7 297r10
+288t7 Feistel{101T14} 292m21 292r21 293r7
+289t7 ReverseIP{108T14} 293m26 293r26 294r7
+290t7 Output{115T14} 294m28 294r28
+296i11 i{integer} 297r62 297r66
+X 26 p_stephandler.ads
+5K9*P_StepHandler 25|1r6 2r5 4r6 5r5 7r6 8r5 10r6 11r5 13r6 14r5 16r6 17r5
+. 26|32e18
+18V13*Get_BinaryContainer{33|41P9} 25|290s51 296s26 297s38
+21U14*Set_BinaryContainer 25|270s17 271s14 272s19 273s21 278s18
+X 27 p_stephandler-feistelhandler.ads
+8K23*FeistelHandler 25|10w20 11r19 27|80e33
+16R9*FeistelHandler<26|7R9> 25|231r28 27|76e14
+18P9*Ptr_FeistelHandler(16R9) 25|101r38
+21V13*Make{16R9} 25|255s21
+26V13*Process_Block{33|15A12} 25|164s30
+64U14*Set_SubKeyArrayAccess 25|275s19
+67U14*Set_Mode 25|276s19
+X 28 p_stephandler-inputhandler.ads
+10K23*InputHandler 25|1w20 2r19 28|45e31
+12R9*InputHandler<26|7R9> 25|228r28 28|43e14
+17V13*Make{12R9} 25|252s21
+21U14*Handle<26|11p14> 25|283s14
+25V13*Get_Input_Size{integer} 25|265s47 268s47
+X 29 p_stephandler-iphandler.ads
+1K23*IPHandler 25|4w20 5r19 29|18e28
+3R9*IPHandler<26|7R9> 25|229r28 29|16e70
+5P9*Ptr_IPHandler(3R9) 25|94r33
+7V13*Make{3R9} 25|254s21
+11V13*Process_Block{33|15A12} 25|139s30
+X 30 p_stephandler-keyhandler.ads
+7K23*KeyHandler 25|7w20 8r19 30|49e29
+9R9*KeyHandler<26|7R9> 25|230r28 30|45e14
+14V13*Make{9R9} 25|253s21
+17U14*Handle<26|11p14> 25|284s15
+33U14*Set_KeyAccess 25|260s15
+36U14*Set_SubKeyArrayAccess 25|261s15
+X 31 p_stephandler-outputhandler.ads
+11K23*OutputHandler 25|16w20 17r19 31|38e32
+13R9*OutputHandler<26|7R9> 25|233r28 31|35e14
+18V13*Make{13R9} 25|257s21
+21U14*Handle<26|11p14> 25|301s15
+26U14*Set_Output_Name 25|279s18
+X 32 p_stephandler-reverseiphandler.ads
+1K23*ReverseIPHandler 25|13w20 14r19 32|18e35
+3R9*ReverseIPHandler<26|7R9> 25|232r28 32|16e77
+5P9*Ptr_ReverseIPHandler(3R9) 25|108r40
+7V13*Make{3R9} 25|256s21
+11V13*Process_Block{33|15A12} 25|188s30
+X 33 p_structuraltypes.ads
+4K9*P_StructuralTypes 25|30w6 31r5 33|73e22
+6A12*T_Key{string}<integer> 25|66r32 224r37
+8M9*T_Bit
+11A9*T_BinaryUnit(8M9)<integer>
+15A12*T_BinaryBlock{11A9}<integer> 25|98r36 105r36 112r36 118r36 126r15 135r46
+. 151r15 160r46 175r15 184r46 198r15 203r46
+31A9*T_BinaryContainer(15A12)<integer> 25|265r16 268r16
+34A9*T_BinarySubKeyArray(29A12)<integer> 25|236r55
+41P9*BinaryContainer_Access(31A9) 25|115r40 264r38 267r38
+43P9*BinarySubKeyArray_Access(34A9) 25|236r23
+45P9*Key_Access(6A12) 25|224r18
+X 34 system.ads
+37K9*System 25|37r6 37r34 34|200e11
+67M9*Address
+X 43 s-memory.ads
+53V13*Alloc{34|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{34|67M9} 105i<c,__gnat_realloc>22
+X 44 s-multip.ads
+16K16*Multiprocessors 25|37w13 37r41 44|28e27
+X 52 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 54 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
